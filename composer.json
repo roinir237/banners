@@ -1,0 +1,20 @@
+{
+    "name": "roinir237/banner",
+    "license": "proprietary",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.3.9"
+     },
+    "require-dev": {
+        "phpspec/phpspec": "^3.0",
+        "phpspec/prophecy": "~1.0"
+     },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
